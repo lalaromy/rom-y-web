@@ -3,19 +3,29 @@ export const metaTags = [
   {
     name: "description",
     value:
-      "Romy Abbrederis | Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein",
+      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein",
     type: "MetaValue",
   },
-  { name: "og:title", value: "", type: "MetaProperty" },
-  { name: "og:url", value: "", type: "MetaProperty" },
-  { name: "og:description", value: "", type: "MetaProperty" },
+  { name: "og:title", value: "Romy Abbrederis", type: "MetaProperty" },
+  { name: "og:url", value: "rom-y.com", type: "MetaProperty" },
+  {
+    name: "og:description",
+    value:
+      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein ",
+    type: "MetaProperty",
+  },
   { name: "og:image", value: "", type: "MetaProperty" },
   { name: "og:image:width", value: "", type: "MetaProperty" },
   { name: "og:image:height", value: "", type: "MetaProperty" },
   { name: "og:image:alt", value: "", type: "MetaProperty" },
   { name: "og:locale", value: "", type: "MetaProperty" },
-  { name: "twitter:card", value: "", type: "MetaValue" },
-  { name: "twitter:description", value: "", type: "MetaValue" },
+  { name: "twitter:card", value: "Romy Abbrederis", type: "MetaValue" },
+  {
+    name: "twitter:description",
+    value:
+      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein ",
+    type: "MetaValue",
+  },
   { name: "twitter:image", value: "", type: "MetaValue" },
 ];
 

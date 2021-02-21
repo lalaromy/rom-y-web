@@ -25,7 +25,7 @@ export const metaTags = [
   },
   {
     name: "og:image",
-    value: "https://i.ibb.co/DGbkxJp/faktory-37-copy.jpg",
+    value: "https://i.ibb.co/PYXYsbx/faktory-37-copy.jpg",
     type: "MetaProperty",
   },
   { name: "og:image:width", value: "200", type: "MetaProperty" },
@@ -43,7 +43,11 @@ export const metaTags = [
       "The Faktory offers a low cost and high quality clothing production in Serbia, East Europe. Clothing Production",
     type: "MetaValue",
   },
-  { name: "twitter:image", value: "", type: "MetaValue" },
+  {
+    name: "twitter:image",
+    value: "https://i.ibb.co/PYXYsbx/faktory-37-copy.jpg",
+    type: "MetaValue",
+  },
 ];
 
 export const production = {
