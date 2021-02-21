@@ -38,13 +38,19 @@ const Contact = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {meta}
       </Head>
-      <MenuWheel
-        currentMenu={"about"}
-        currentMenuIndex={0}
-        getSubMenu={getSubMenu}
-      />
-      <a>hi@rom-y.com</a>
-      <Banner />
+      <div className="contact-container">
+        <a href="mailto:hi@rom-y.com">hi@rom-y.com</a>
+        <a href="https://github.com/romyabbrederis" target="_blank">
+          {" "}
+          <img className="icon" src="../coding.png" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/romy-abbrederis-05471456/"
+          target="_blank"
+        >
+          <img className="icon" src="../linkedin.png" />
+        </a>
+      </div>
     </div>
   );
 };

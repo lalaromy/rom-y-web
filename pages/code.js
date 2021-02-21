@@ -43,7 +43,7 @@ const Code = () => {
         getSubMenu={getSubMenu}
       />
       <CodePage data={data} projectSelected={selectSubMenu} />
-      <Banner />
+      {/* <Banner /> */}
     </div>
   );
 };

@@ -4,8 +4,10 @@ import { bannerData } from "../data/en/banner";
 const Banner = (props) => {
   return (
     <div className="banner-container">
-      {bannerData.map((item) => (
-        <p>{item}</p>
+      {bannerData.map((item, index) => (
+        <p key={index} className="item">
+          {item}
+        </p>
       ))}
     </div>
   );

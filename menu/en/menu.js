@@ -11,10 +11,10 @@ export const menu = [
     id: "3",
     value: "fashion",
   },
-  {
-    id: "4",
-    value: "contact",
-  },
+  // {
+  //   id: "4",
+  //   value: "contact",
+  // },
 ];
 
 export const aboutMenu = [
@@ -48,8 +48,8 @@ export const fashionMenu = [
     id: "10",
     value: "production",
   },
-  {
-    id: "11",
-    value: "film",
-  },
+  // {
+  //   id: "11",
+  //   value: "film",
+  // },
 ];
