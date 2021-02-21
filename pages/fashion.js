@@ -4,7 +4,7 @@ import { metaTags, data } from "../data/en/fashion";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { buildMetatags } from "../utils/metaTags";
-import FashionPage from "../components/FAshion";
+import FashionPage from "../components/Fashion";
 
 const Fashion = () => {
   const router = useRouter();

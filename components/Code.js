@@ -1,6 +1,7 @@
 import React from "react";
 
-const Code = ({ data }) => {
+const Code = ({ projectSelected }) => {
+  console.log("projectSelected", projectSelected);
   return <div></div>;
 };
 

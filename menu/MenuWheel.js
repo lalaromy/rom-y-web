@@ -3,7 +3,7 @@ import WheelPicker from "react-simple-wheel-picker";
 import { menu, aboutMenu, codeMenu, fashionMenu } from "../menu/en/menu";
 import { useRouter } from "next/router";
 
-const MenuWheel = ({ currentMenu, currentMenuIndex }) => {
+const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
   const [mainMenu, setMainMenu] = useState(currentMenu);
   const [subMenu, setSubMenu] = useState(aboutMenu);
 
@@ -15,6 +15,11 @@ const MenuWheel = ({ currentMenu, currentMenuIndex }) => {
     setTimeout(() => {
       router.push("/" + mainMenu);
     }, 2000);
+  };
+
+  const handleSubMenuChange = (target) => {
+    console.log(target);
+    getSubMenu(target.value);
   };
 
   useEffect(() => {
@@ -47,7 +52,7 @@ const MenuWheel = ({ currentMenu, currentMenuIndex }) => {
       <WheelPicker
         className="wheel"
         data={subMenu}
-        onChange={handleMenuChange}
+        onChange={handleSubMenuChange}
         height={150}
         width={100}
         titleText="Enter value same as aria-label"
