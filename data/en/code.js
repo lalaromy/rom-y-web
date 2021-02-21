@@ -1,5 +1,9 @@
 export const metaTags = [
-  { name: "title", value: "", type: "MetaValue" },
+  {
+    name: "title",
+    value: "Coding | Reactjs Nextjs in Paris & Vaduz Liechtenstein",
+    type: "MetaValue",
+  },
   { name: "description", value: "", type: "MetaValue" },
   { name: "og:title", value: "", type: "MetaProperty" },
   { name: "og:url", value: "", type: "MetaProperty" },
@@ -21,10 +25,18 @@ export const data = [
   },
 ];
 
-export const azuvia = [
-  {
-    title: "",
-    paragraph: ["", ""],
-    image: "",
-  },
-];
+export const azuvia = {
+  title: "Azuvia",
+  paragraphs: ["reactjs,  nextjs, strapi, heroku, vercel", ""],
+  image: "../../code/azuvia.jpg",
+  linkURL: "www.residence.li",
+  linkName: "View Website",
+};
+
+export const residence = {
+  title: "Residence",
+  paragraphs: ["Re-making of website", "Nextjs : Drupal : Tailwind"],
+  image: "../../code/azuvia.jpg",
+  linkURL: "www.residence.li",
+  linkName: "View Website",
+};

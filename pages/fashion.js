@@ -10,7 +10,8 @@ const Fashion = () => {
   const router = useRouter();
   const { asPath } = router;
   const metatags = metaTags;
-  const canonicalUrl = `https://azuvia.fr${asPath}`;
+  const canonicalUrl = `https://rom-y.com${asPath}`;
+  const [selectSubMenu, setSelectSubMenu] = useState();
 
   const newMetatags = [
     ...metatags,
@@ -23,15 +24,25 @@ const Fashion = () => {
 
   const meta = buildMetatags(newMetatags);
 
+  const getSubMenu = (value) => {
+    console.log("getSubMenu", value);
+    setSelectSubMenu();
+  };
+
+  console.log("selectSubMenu", selectSubMenu);
   return (
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {meta}
       </Head>
-      <MenuWheel currentMenu={"fashion"} currentMenuIndex={2} />
+      <MenuWheel
+        currentMenu={"fashion"}
+        currentMenuIndex={2}
+        getSubMenu={getSubMenu}
+      />
       <h1>Fashion</h1>
-      <FashionPage data={data} />
+      <FashionPage data={data} projectSelected={selectSubMenu} />
     </div>
   );
 };

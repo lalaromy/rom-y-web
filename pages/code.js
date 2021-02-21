@@ -26,7 +26,7 @@ const Code = () => {
 
   const getSubMenu = (value) => {
     console.log("getSubMenu", value);
-    setSelectSubMenu();
+    setSelectSubMenu(value);
   };
 
   console.log("selectSubMenu", selectSubMenu);
@@ -41,7 +41,6 @@ const Code = () => {
         currentMenuIndex={1}
         getSubMenu={getSubMenu}
       />
-      <h1>Code</h1>
       <CodePage data={data} projectSelected={selectSubMenu} />
     </div>
   );

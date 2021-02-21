@@ -6,15 +6,16 @@ import { useRouter } from "next/router";
 const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
   const [mainMenu, setMainMenu] = useState(currentMenu);
   const [subMenu, setSubMenu] = useState(aboutMenu);
-
+  let pushHistory;
   const router = useRouter();
 
   const handleMenuChange = (target) => {
-    console.log(target);
+    console.log("MenuWheel", target.value);
     setMainMenu(target.value);
     setTimeout(() => {
-      router.push("/" + mainMenu);
-    }, 2000);
+      router.push("/" + target.value);
+      // clearTimeout(pushHistory);
+    }, 1000);
   };
 
   const handleSubMenuChange = (target) => {
