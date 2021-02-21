@@ -27,16 +27,51 @@ export const data = [
 
 export const azuvia = {
   title: "Azuvia",
-  paragraphs: ["reactjs,  nextjs, strapi, heroku, vercel", ""],
+  paragraphs: ["Reactjs :  Nextjs : Strapi", ""],
   image: "../../code/azuvia.jpg",
-  linkURL: "www.residence.li",
+  linkURL: "http://azuvia.fr/",
   linkName: "View Website",
 };
 
 export const residence = {
   title: "Residence",
   paragraphs: ["Re-making of website", "Nextjs : Drupal : Tailwind"],
-  image: "../../code/azuvia.jpg",
-  linkURL: "www.residence.li",
+  image: "../../code/residence.png",
+  linkURL: "https://www.residence.li",
+  linkName: "View Website",
+};
+
+export const bdst = {
+  title: "BDST",
+  paragraphs: [
+    "Bureau de Stil E-Shop Launch",
+    "Gatsby : Shopify Storefron Api : Styled Components",
+  ],
+  image: "../../code/bdst.png",
+  linkURL: "https://bureaudestil.com/",
+  linkName: "View Website",
+};
+
+export const faktory = {
+  title: "BDST",
+  paragraphs: ["Faktory Studios Website", "Reactjs :  Nextjs : Strapi", ""],
+  image: "../../code/faktory.png",
+  linkURL: "https://faktory-studios.com/",
+  linkName: "View Website",
+};
+
+export const veert = {
+  title: "Veert",
+  paragraphs: ["Website Launch", "Shopify : Liquid"],
+  image: "../../code/veert.png",
+  linkURL: "https://itsveert.com/",
+  linkName: "View Website",
+};
+
+export const nomade = {
+  title: "Nomade",
+  paragraphs: ["Nomade Booking", "Reactjs : Nodejs"],
+  image: "../../code/nomade.png",
+  linkURL: "http://www.nomadebooking.com/",
   linkName: "View Website",
 };

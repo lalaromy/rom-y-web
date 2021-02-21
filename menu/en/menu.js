@@ -38,8 +38,16 @@ export const codeMenu = [
     value: "bdst",
   },
   {
+    id: "12",
+    value: "faktory",
+  },
+  {
     id: "9",
     value: "veert",
+  },
+  {
+    id: "11",
+    value: "nomade",
   },
 ];
 

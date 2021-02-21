@@ -1,16 +1,48 @@
 export const metaTags = [
-  { name: "title", value: "", type: "MetaValue" },
-  { name: "description", value: "", type: "MetaValue" },
-  { name: "og:title", value: "", type: "MetaProperty" },
-  { name: "og:url", value: "", type: "MetaProperty" },
-  { name: "og:description", value: "", type: "MetaProperty" },
-  { name: "og:image", value: "", type: "MetaProperty" },
-  { name: "og:image:width", value: "", type: "MetaProperty" },
-  { name: "og:image:height", value: "", type: "MetaProperty" },
-  { name: "og:image:alt", value: "", type: "MetaProperty" },
-  { name: "og:locale", value: "", type: "MetaProperty" },
-  { name: "twitter:card", value: "", type: "MetaValue" },
-  { name: "twitter:description", value: "", type: "MetaValue" },
+  {
+    name: "title",
+    value:
+      "Fashion Apparel Production in Serbia Europe | Romy Abbrederis | Faktory Studios",
+    type: "MetaValue",
+  },
+  {
+    name: "description",
+    value:
+      "The Faktory offer a low cost and high quality clothing production in Serbia, East Europe. Clothing Production | Garment Production, CMT, FPP, Pattern making, fabric & trim sourcing for luxury and small brands in Europe, Serbia",
+    type: "MetaValue",
+  },
+  {
+    name: "og:title",
+    value: "Fashion Apparel Production in Serbia Europe ",
+    type: "MetaProperty",
+  },
+  { name: "og:url", value: "rom-y.com/fashion", type: "MetaProperty" },
+  {
+    name: "og:description",
+    value:
+      "The Faktory offers a low cost and high quality clothing production in Serbia, East Europe. Clothing Production",
+    type: "MetaProperty",
+  },
+  {
+    name: "og:image",
+    value: "https://i.ibb.co/DGbkxJp/faktory-37-copy.jpg",
+    type: "MetaProperty",
+  },
+  { name: "og:image:width", value: "500", type: "MetaProperty" },
+  { name: "og:image:height", value: "500", type: "MetaProperty" },
+  { name: "og:image:alt", value: "Faktory", type: "MetaProperty" },
+  { name: "og:locale", value: "en_US", type: "MetaProperty" },
+  {
+    name: "twitter:card",
+    value: "Fashion Apparel Production in Serbia Europe ",
+    type: "MetaValue",
+  },
+  {
+    name: "twitter:description",
+    value:
+      "The Faktory offers a low cost and high quality clothing production in Serbia, East Europe. Clothing Production",
+    type: "MetaValue",
+  },
   { name: "twitter:image", value: "", type: "MetaValue" },
 ];
 

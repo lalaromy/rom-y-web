@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { residence, azuvia } from "../data/en/code";
+import {
+  residence,
+  azuvia,
+  bdst,
+  veert,
+  nomade,
+  faktory,
+} from "../data/en/code";
 import Fade from "react-reveal/Fade";
 
 const Code = ({ projectSelected }) => {
@@ -17,6 +24,18 @@ const Code = ({ projectSelected }) => {
         break;
       case "residence":
         setData(residence);
+        break;
+      case "bdst":
+        setData(bdst);
+        break;
+      case "veert":
+        setData(veert);
+        break;
+      case "nomade":
+        setData(nomade);
+        break;
+      case "faktory":
+        setData(faktory);
         break;
     }
   };

@@ -279,6 +279,7 @@ body:-webkit-scrollbar {
   bottom: 5px;
   left: 5px;
   animation: rotAppear 2s ease 0.2s;
+  cursor: pointer;
 }
 
 .plus-sign-close {
@@ -288,4 +289,19 @@ body:-webkit-scrollbar {
   left: 5px;
   animation: rotation 2s ease;
   transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.bank-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 500;
+  color: white;
+  -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
