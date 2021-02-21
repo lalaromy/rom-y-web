@@ -2,7 +2,7 @@ body {
   background: black;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 14px;
   font-weight: 200;
   overflow: hidden;
@@ -118,7 +118,7 @@ body:-webkit-scrollbar {
   background: white;
   width: 200%;
   font-size: 20px;
-  font-family: "Staatliches", cursive;
+  /* font-family: "Staatliches", cursive; */
   animation: bannerMoving 10s ease-in-out infinite;
 }
 
@@ -181,7 +181,7 @@ body:-webkit-scrollbar {
 @media (min-width: 700px) {
   h1 {
     font-size: 52px;
-    font-family: "Staatliches", cursive;
+    /* font-family: "Staatliches", cursive; */
     font-weight: 200;
   }
 
