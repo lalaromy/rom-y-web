@@ -240,6 +240,9 @@ body:-webkit-scrollbar {
   align-items: center;
   height: 100vh;
   font-weight: 500;
+  -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .icon {
