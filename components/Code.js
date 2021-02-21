@@ -13,10 +13,8 @@ import Slide from "react-reveal/Slide";
 const Code = ({ projectSelected }) => {
   console.log("projectSelected", projectSelected);
   const [data, setData] = useState();
-  const [cssLoading, setCSSloading] = useState(false);
 
   useEffect(() => {
-    setCSSloading(true);
     getProjectInfo();
   }, [projectSelected]);
 
@@ -41,8 +39,8 @@ const Code = ({ projectSelected }) => {
         setData(faktory);
         break;
     }
-    setCSSloading(false);
   };
+
   return data ? (
     <div className="code-page-container">
       <div className="fixed-side">
@@ -58,11 +56,7 @@ const Code = ({ projectSelected }) => {
           {data.linkName}
         </a>
       </div>
-      <img
-        className={cssLoading ? "" : "code-image"}
-        src={data.image}
-        alt={data.title}
-      />
+      <img className={"code-image"} src={data.image} alt={data.title} />
     </div>
   ) : null;
 };

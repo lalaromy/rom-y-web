@@ -137,7 +137,7 @@ body:-webkit-scrollbar {
   .code-image {
     width: 100%;
     position: fixed;
-    bottom: 0;
+    bottom: 25px;
     left: 0;
     right: 0;
   }
