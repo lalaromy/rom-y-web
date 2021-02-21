@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   overflow: hidden;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
@@ -151,7 +151,6 @@ body:-webkit-scrollbar {
 
   .text-container {
     padding-left: 50px;
-    text-align: justify;
   }
 
   .main-container {

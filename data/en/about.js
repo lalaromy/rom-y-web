@@ -42,10 +42,11 @@ export const data = {
   subheadline: [
     "Frontend Developer",
     "Fashion Production Agent",
-    "Simple 3D Production",
+    "Simple 3D Developement",
   ],
   paragraphs: [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "",
+    "A creative girl from Liechtenstein swimming in clean code. Having studied Fashion in Paris, Romy switched planets 4 years ago.",
+    "Stacks she is frequently using: React, Typescript, Three.js, Phaser, Canvas, Next.js, Gatsby.",
+    "Her current interests: TDD, Angular & Games",
   ],
 };
