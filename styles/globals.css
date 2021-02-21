@@ -2,12 +2,18 @@ body {
   background: black;
   padding: 0;
   margin: 0;
-  font-family: Helvetica Neue;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
   overflow: hidden;
   /* this will hide the scrollbar in mozilla based browsers */
   overflow: -moz-scrollbars-none;
   /* this will hide the scrollbar in internet explorers */
   -ms-overflow-style: none;
+}
+
+a {
+  color: #f6ff8f;
 }
 
 body:-webkit-scrollbar {
@@ -88,23 +94,16 @@ body:-webkit-scrollbar {
   animation: bannerMoving 10s ease-in-out infinite;
 }
 
-.page-container {
-  color: white;
-  padding: 5px;
-}
-
-.text-container {
-  padding-left: 50px;
-}
-
 @media (max-width: 700px) {
   h1 {
-    font-size: 18px;
+    font-size: 30px;
+    font-family: "Staatliches", cursive;
+    font-weight: 600;
   }
   .fixed-side {
     position: absolute;
-    left: 5px;
-    top: 20px;
+    left: 20px;
+    top: -15px;
     transform: rotate(90deg);
     width: 5vh;
     font-size: 22px;
@@ -124,16 +123,40 @@ body:-webkit-scrollbar {
     margin-top: 50px;
     position: relative;
   }
+
+  .text-container {
+    padding-left: 50px;
+  }
+
+  .main-container {
+    padding-left: 70px;
+    padding-right: 5px;
+  }
+
+  .page-container {
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 150px;
+    right: 5px;
+    left: 0;
+    width: 100%;
+  }
 }
 
 @media (min-width: 700px) {
   h1 {
-    font-size: 28px;
+    font-size: 52px;
+    font-family: "Staatliches", cursive;
+    font-weight: 200;
   }
+
   .fixed-side {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 20px;
+    top: -25px;
     transform: rotate(90deg);
     width: 5vh;
     font-size: 2px;
@@ -151,5 +174,25 @@ body:-webkit-scrollbar {
   }
   .code-image {
     width: 50%;
+  }
+
+  .text-container {
+    padding-left: 70px;
+  }
+  .main-container {
+    padding-left: 100px;
+    flex-basis: 50%;
+  }
+
+  .page-container {
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30%;
+    right: 5px;
+    left: 0;
+    width: 100%;
   }
 }

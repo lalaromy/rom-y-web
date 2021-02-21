@@ -3,13 +3,17 @@ import React from "react";
 const About = ({ data }) => {
   return (
     <div className="page-container">
-      <div className="fixed-side">{/* <p>{data.title}</p> */}</div>
-      {data.subheadline.map((item) => (
-        <p>{item}</p>
-      ))}
-      {data.paragraphs.map((item) => (
-        <p>{item}</p>
-      ))}
+      <div className="fixed-side">
+        <h1>{data.title}</h1>
+      </div>
+      <div className="main-container">
+        {data.subheadline.map((item) => (
+          <h4 key={item}>{item}</h4>
+        ))}
+        {data.paragraphs.map((item) => (
+          <p key={item}>{item}</p>
+        ))}
+      </div>
     </div>
   );
 };

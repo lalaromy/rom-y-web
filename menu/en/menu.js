@@ -19,33 +19,37 @@ export const menu = [
 
 export const aboutMenu = [
   {
-    id: "1",
+    id: "5",
     value: "romy",
   },
 ];
 
 export const codeMenu = [
   {
-    id: "1",
+    id: "6",
     value: "residence",
   },
   {
-    id: "2",
+    id: "7",
     value: "azuvia",
   },
   {
-    id: "3",
+    id: "8",
     value: "bdst",
   },
   {
-    id: "4",
+    id: "9",
     value: "veert",
   },
 ];
 
 export const fashionMenu = [
   {
-    id: "1",
+    id: "10",
     value: "production",
+  },
+  {
+    id: "11",
+    value: "film",
   },
 ];

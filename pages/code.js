@@ -5,6 +5,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { buildMetatags } from "../utils/metaTags";
 import CodePage from "../components/Code";
+import Banner from "../components/Banner";
 
 const Code = () => {
   const router = useRouter();
@@ -42,6 +43,7 @@ const Code = () => {
         getSubMenu={getSubMenu}
       />
       <CodePage data={data} projectSelected={selectSubMenu} />
+      <Banner />
     </div>
   );
 };

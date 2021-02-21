@@ -26,7 +26,7 @@ const Fashion = () => {
 
   const getSubMenu = (value) => {
     console.log("getSubMenu", value);
-    setSelectSubMenu();
+    setSelectSubMenu(value);
   };
 
   console.log("selectSubMenu", selectSubMenu);
@@ -42,7 +42,7 @@ const Fashion = () => {
         getSubMenu={getSubMenu}
       />
       <h1>Fashion</h1>
-      <FashionPage data={data} projectSelected={selectSubMenu} />
+      <FashionPage projectSelected={selectSubMenu} />
     </div>
   );
 };

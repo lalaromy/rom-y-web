@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { residence, azuvia } from "../data/en/code";
+import Fade from "react-reveal/Fade";
 
 const Code = ({ projectSelected }) => {
   console.log("projectSelected", projectSelected);
@@ -22,11 +23,13 @@ const Code = ({ projectSelected }) => {
   return data ? (
     <div className="code-page-container">
       <div className="fixed-side">
-        <h1>{data.title}</h1>
+        <Fade right>
+          <h1>{data.title}</h1>
+        </Fade>
       </div>
       <div className="text-container">
         {data.paragraphs.map((item) => (
-          <p>{item}</p>
+          <p key={item}>{item}</p>
         ))}
         <a href={data.linkURL}>{data.linkName}</a>
       </div>

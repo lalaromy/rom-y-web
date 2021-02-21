@@ -1,17 +1,12 @@
 import React from "react";
+import { bannerData } from "../data/en/banner";
 
 const Banner = (props) => {
   return (
     <div className="banner-container">
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
+      {bannerData.map((item) => (
+        <p>{item}</p>
+      ))}
     </div>
   );
 };

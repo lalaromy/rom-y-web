@@ -44,7 +44,7 @@ const About = () => {
         getSubMenu={getSubMenu}
       />
       <AboutPage data={data} />
-      {/* <Banner /> */}
+      <Banner />
     </div>
   );
 };

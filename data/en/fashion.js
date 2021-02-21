@@ -14,9 +14,28 @@ export const metaTags = [
   { name: "twitter:image", value: "", type: "MetaValue" },
 ];
 
-export const data = [
-  {
-    title: "",
-    paragraph: ["", ""],
-  },
-];
+export const production = {
+  title: "fashion production",
+  subheadline: [
+    "Apparel Production Facility Serbia",
+    "Ethical & Sustainable",
+    "Low quantity & High-end",
+  ],
+  paragraphs: [
+    "Working as a brand agent for the Faktory Studios.",
+    "The Faktory has been established in a need for qualitative manufacturing with a flexible price and quantity in Europe.",
+    // "Who are we? A group of fashion professionals who have worked for brands in Paris, Milan, Antwerp and Stockholm. We understand your needs! Together, we saw the opportunity to create a high quality & ethical manufacturer in Europe. Our goal? Forming your Fashion Business into a seamless process.",
+  ],
+};
+
+export const film = {
+  title: "fashion film",
+  projects: [
+    {
+      title: "Crash",
+      subtitle: "",
+      music: "",
+      videoURL: "",
+    },
+  ],
+};
