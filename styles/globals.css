@@ -185,9 +185,9 @@ body:-webkit-scrollbar {
   .fixed-side {
     position: absolute;
     left: 20px;
-    top: -25px;
+    top: -10px;
     transform: rotate(90deg);
-    width: 5vh;
+    width: 8vh;
     font-size: 2px;
   }
 
