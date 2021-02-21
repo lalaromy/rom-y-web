@@ -14,7 +14,7 @@ const About = ({ data }) => {
           <h4 key={item}>{item}</h4>
         ))}
         {data.paragraphs.map((item) => (
-          <Fade left cascade duration={1500} delay={1000}>
+          <Fade left duration={1500} delay={1000}>
             <p key={item}>{item}</p>
           </Fade>
         ))}

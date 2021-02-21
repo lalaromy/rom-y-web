@@ -3,8 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   overflow: hidden;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
@@ -137,7 +137,7 @@ body:-webkit-scrollbar {
   .code-image {
     width: 100%;
     position: fixed;
-    bottom: 25px;
+    bottom: 5px;
     left: 0;
     right: 0;
   }
@@ -156,6 +156,7 @@ body:-webkit-scrollbar {
   .main-container {
     padding-left: 70px;
     padding-right: 5px;
+
     -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       both;
     animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -309,4 +310,15 @@ body:-webkit-scrollbar {
   -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.logo-header {
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  text-transform: lowercase;
+  font-size: 28px;
+  font-weight: 700;
 }

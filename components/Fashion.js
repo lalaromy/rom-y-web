@@ -33,7 +33,7 @@ const Fashion = ({ projectSelected }) => {
           : null}
         {data.paragraphs
           ? data.paragraphs.map((item) => (
-              <Fade right cascade duration={1500} delay={1000}>
+              <Fade right duration={1500} delay={1000}>
                 <p key={item}>{item}</p>{" "}
               </Fade>
             ))
