@@ -11,7 +11,7 @@ const Contact = () => {
   const router = useRouter();
   const { asPath } = router;
   const metatags = metaTags;
-  const canonicalUrl = `https://azuvia.fr${asPath}`;
+  const canonicalUrl = `https://rom-y.com${asPath}`;
   const [selectSubMenu, setSelectSubMenu] = useState();
 
   const newMetatags = [

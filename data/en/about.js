@@ -14,11 +14,15 @@ export const metaTags = [
       "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein ",
     type: "MetaProperty",
   },
-  { name: "og:image", value: "", type: "MetaProperty" },
-  { name: "og:image:width", value: "", type: "MetaProperty" },
-  { name: "og:image:height", value: "", type: "MetaProperty" },
-  { name: "og:image:alt", value: "", type: "MetaProperty" },
-  { name: "og:locale", value: "", type: "MetaProperty" },
+  {
+    name: "og:image",
+    value: "https://i.ibb.co/Rjy4YKg/cv-picture-copy.jpg",
+    type: "MetaProperty",
+  },
+  { name: "og:image:width", value: "200", type: "MetaProperty" },
+  { name: "og:image:height", value: "200", type: "MetaProperty" },
+  { name: "og:image:alt", value: "Romy Abbrederis", type: "MetaProperty" },
+  { name: "og:locale", value: "en_US", type: "MetaProperty" },
   { name: "twitter:card", value: "Romy Abbrederis", type: "MetaValue" },
   {
     name: "twitter:description",
@@ -26,7 +30,11 @@ export const metaTags = [
       "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein ",
     type: "MetaValue",
   },
-  { name: "twitter:image", value: "", type: "MetaValue" },
+  {
+    name: "twitter:image",
+    value: "https://i.ibb.co/Rjy4YKg/cv-picture-copy.jpg",
+    type: "MetaValue",
+  },
 ];
 
 export const data = {
