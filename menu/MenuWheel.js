@@ -33,6 +33,18 @@ const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
     if (mainMenu === "fashion") setSubMenu(fashionMenu);
   };
 
+  const menuColor = () => {
+    if (mainMenu === "fashion") {
+      return "#8236FF";
+    } else if (mainMenu === "about") {
+      return "#F6FF8F";
+    } else if (mainMenu === "code") {
+      return "#92FF8F";
+    } else {
+      return "#F6FF8F";
+    }
+  };
+
   return (
     <div className="container">
       <div className="white-box"></div>
@@ -60,7 +72,7 @@ const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
         itemHeight={30}
         selectedID={subMenu[0].id}
         color="#50844F"
-        activeColor="#92FF8F"
+        activeColor={menuColor()}
         backgroundColor="#000000"
         shadowColor="black"
       />

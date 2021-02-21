@@ -8,12 +8,15 @@ import {
   faktory,
 } from "../data/en/code";
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 const Code = ({ projectSelected }) => {
   console.log("projectSelected", projectSelected);
   const [data, setData] = useState();
+  const [cssLoading, setCSSloading] = useState(false);
 
   useEffect(() => {
+    setCSSloading(true);
     getProjectInfo();
   }, [projectSelected]);
 
@@ -38,11 +41,12 @@ const Code = ({ projectSelected }) => {
         setData(faktory);
         break;
     }
+    setCSSloading(false);
   };
   return data ? (
     <div className="code-page-container">
       <div className="fixed-side">
-        <Fade right>
+        <Fade bottom duration={1500} delay={1000}>
           <h1>{data.title}</h1>
         </Fade>
       </div>
@@ -50,9 +54,15 @@ const Code = ({ projectSelected }) => {
         {data.paragraphs.map((item) => (
           <p key={item}>{item}</p>
         ))}
-        <a href={data.linkURL}>{data.linkName}</a>
+        <a href={data.linkURL} target="_blank">
+          {data.linkName}
+        </a>
       </div>
-      <img className="code-image" src={data.image} alt={data.title} />
+      <img
+        className={cssLoading ? "" : "code-image"}
+        src={data.image}
+        alt={data.title}
+      />
     </div>
   ) : null;
 };

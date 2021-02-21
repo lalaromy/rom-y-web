@@ -41,7 +41,6 @@ const Fashion = () => {
         currentMenuIndex={2}
         getSubMenu={getSubMenu}
       />
-      <h1>Fashion</h1>
       <FashionPage projectSelected={selectSubMenu} />
     </div>
   );
