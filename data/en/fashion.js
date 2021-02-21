@@ -28,8 +28,8 @@ export const metaTags = [
     value: "https://i.ibb.co/DGbkxJp/faktory-37-copy.jpg",
     type: "MetaProperty",
   },
-  { name: "og:image:width", value: "500", type: "MetaProperty" },
-  { name: "og:image:height", value: "500", type: "MetaProperty" },
+  { name: "og:image:width", value: "200", type: "MetaProperty" },
+  { name: "og:image:height", value: "200", type: "MetaProperty" },
   { name: "og:image:alt", value: "Faktory", type: "MetaProperty" },
   { name: "og:locale", value: "en_US", type: "MetaProperty" },
   {
