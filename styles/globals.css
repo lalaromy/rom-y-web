@@ -196,7 +196,7 @@ body:-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    bottom: 30%;
+    bottom: 20%;
     right: 5px;
     left: 0;
   }
