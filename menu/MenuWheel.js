@@ -3,9 +3,10 @@ import WheelPicker from "react-simple-wheel-picker";
 import { menu, aboutMenu, codeMenu, fashionMenu } from "../menu/en/menu";
 import { useRouter } from "next/router";
 
-const Home = () => {
-  const [mainMenu, setMainMenu] = useState("about");
+const MenuWheel = ({ currentMenu, currentMenuIndex }) => {
+  const [mainMenu, setMainMenu] = useState(currentMenu);
   const [subMenu, setSubMenu] = useState(aboutMenu);
+
   const router = useRouter();
 
   const handleMenuChange = (target) => {
@@ -37,7 +38,7 @@ const Home = () => {
         width={100}
         titleText="Enter value same as aria-label"
         itemHeight={30}
-        selectedID={menu[0].id}
+        selectedID={menu[currentMenuIndex].id}
         color="grey"
         activeColor="white"
         backgroundColor="#000000"
@@ -61,4 +62,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MenuWheel;
