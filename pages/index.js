@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import { metaTags } from "../data/en/about";
 import Head from "next/head";
 import { buildMetatags } from "../utils/metaTags";
+import MenuWheel from "../menu/MenuWheel";
+import Link from "next/link";
 
 const Home = () => {
   const [mainMenu, setMainMenu] = useState("about");
@@ -27,7 +29,6 @@ const Home = () => {
   const meta = buildMetatags(newMetatags);
 
   const handleMenuChange = (target) => {
-    console.log(target);
     setMainMenu(target.value);
     setTimeout(() => {
       router.push("/" + mainMenu);
@@ -51,20 +52,15 @@ const Home = () => {
         {meta}
       </Head>
       <div className="white-box"></div>
-      <WheelPicker
-        className="wheel"
-        data={menu}
-        onChange={handleMenuChange}
-        height={150}
-        width={100}
-        titleText="Enter value same as aria-label"
-        itemHeight={30}
-        selectedID={menu[0].id}
-        color="grey"
-        activeColor="white"
-        backgroundColor="#000000"
-        shadowColor="black"
-      />
+      <div className="menu-buttons">
+        {menu.map((item) => (
+          <p>
+            <Link href={"/" + item}>
+              <a className="menu-item">{item}</a>
+            </Link>
+          </p>
+        ))}
+      </div>
       <WheelPicker
         className="wheel"
         data={subMenu}

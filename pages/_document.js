@@ -5,11 +5,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* {isProduction && (
+          {isProduction && (
             <>
               <script
                 async
-                src={`https://www.googletagmanager.com/gtag/js?id=G-QBYV18DLYS`}
+                src={`https://www.googletagmanager.com/gtag/js?id=G-K854F1XFM4`}
               />
               <script
                 dangerouslySetInnerHTML={{
@@ -17,12 +17,12 @@ class MyDocument extends Document {
         window.dataLayer = window.dataLayer || [];
         function gtag(){window.dataLayer.push(arguments)}
         gtag("js", new Date());
-        gtag("config", "G-QBYV18DLYS");
+        gtag("config", "G-K854F1XFM4");
     `,
                 }}
               />
             </>
-          )}          */}
+          )}
           <link rel="icon" href="/favicon.ico" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
         </Head>

@@ -3,7 +3,6 @@ import { production, film } from "../data/en/fashion";
 import Fade from "react-reveal/Fade";
 
 const Fashion = ({ projectSelected }) => {
-  console.log("projectSelected", projectSelected);
   const [data, setData] = useState();
 
   useEffect(() => {

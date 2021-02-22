@@ -11,7 +11,6 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 
 const Code = ({ projectSelected }) => {
-  console.log("projectSelected", projectSelected);
   const [data, setData] = useState();
 
   useEffect(() => {

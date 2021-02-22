@@ -9,7 +9,6 @@ function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-    console.log(router.asPath);
     if (router.asPath === "/contact") setOpen(true);
   }, [router]);
 

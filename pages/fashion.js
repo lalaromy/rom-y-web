@@ -25,11 +25,9 @@ const Fashion = () => {
   const meta = buildMetatags(newMetatags);
 
   const getSubMenu = (value) => {
-    console.log("getSubMenu", value);
     setSelectSubMenu(value);
   };
 
-  console.log("selectSubMenu", selectSubMenu);
   return (
     <div>
       <Head>

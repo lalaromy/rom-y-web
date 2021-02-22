@@ -322,3 +322,15 @@ body:-webkit-scrollbar {
   font-size: 28px;
   font-weight: 700;
 }
+
+.menu-buttons {
+  color: white;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.menu-item {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}

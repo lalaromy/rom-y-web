@@ -26,11 +26,8 @@ const About = () => {
   const meta = buildMetatags(newMetatags);
 
   const getSubMenu = (value) => {
-    console.log("getSubMenu", value);
     setSelectSubMenu();
   };
-
-  console.log("selectSubMenu", selectSubMenu);
 
   return (
     <div>

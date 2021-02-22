@@ -1,16 +1,7 @@
 export const menu = [
-  {
-    id: "1",
-    value: "about",
-  },
-  {
-    id: "2",
-    value: "code",
-  },
-  {
-    id: "3",
-    value: "fashion",
-  },
+  "about",
+  "code",
+  "fashion",
   // {
   //   id: "4",
   //   value: "contact",
