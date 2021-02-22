@@ -36,7 +36,7 @@ const Contact = () => {
         {meta}
       </Head>
       <div className="contact-container">
-        <a href="mailto:hi@rom-y.com">hi@rom-y.com</a>
+        <a href="mailto:hello@rom-y.com">hello@rom-y.com</a>
         <a href="https://github.com/romyabbrederis" target="_blank">
           {" "}
           <img className="icon" src="../coding.png" />
