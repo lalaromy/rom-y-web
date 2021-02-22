@@ -15,7 +15,7 @@ const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
     setMenuDisplay(element);
     const indexMenu = menu.indexOf(element);
     const newMenu = menu.splice(indexMenu, 1);
-    menu.unshift(element);
+    menu.splice(1, 0, element);
   }, []);
 
   const handleMenuChange = (target) => {
@@ -52,6 +52,18 @@ const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
     }
   };
 
+  const mainMenuColor = () => {
+    if (mainMenu === "fashion") {
+      return "#8236FF";
+    } else if (mainMenu === "about") {
+      return "#F6FF8F";
+    } else if (mainMenu === "code") {
+      return "#92FF8F";
+    } else {
+      return "white";
+    }
+  };
+
   return (
     <div className="container">
       <div className="white-box"></div>
@@ -59,7 +71,17 @@ const MenuWheel = ({ currentMenu, currentMenuIndex, getSubMenu }) => {
         {menu.map((item) => (
           <p>
             <Link href={"/" + item}>
-              <a className="menu-item">{item}</a>
+              <a
+                style={{
+                  color:
+                    item === router.asPath.substring(1)
+                      ? mainMenuColor()
+                      : "white",
+                }}
+                className="menu-item"
+              >
+                {item}
+              </a>
             </Link>
           </p>
         ))}
