@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+const isProduction = process.env.NODE_ENV === "production";
 
 class MyDocument extends Document {
   render() {
