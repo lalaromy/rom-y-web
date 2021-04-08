@@ -3,7 +3,7 @@ export const metaTags = [
   {
     name: "description",
     value:
-      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein",
+      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein | Romy Abbrederis Vaduz Paris Liechtenstein",
     type: "MetaValue",
   },
   { name: "og:title", value: "Romy Abbrederis", type: "MetaProperty" },

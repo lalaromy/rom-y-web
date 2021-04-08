@@ -12,6 +12,9 @@ const Bank = () => {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <Head>
+          <meta name="googlebot" content="noindex" />
+        </Head>
         <title>Secret Life of Romy</title>
       </Head>
       <div className="bank-container">
