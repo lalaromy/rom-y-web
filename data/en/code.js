@@ -17,14 +17,22 @@ export const metaTags = [
     value: "Romy Abbrederis | Coding",
     type: "MetaProperty",
   },
-  { name: "og:image", value: "", type: "MetaProperty" },
-  { name: "og:image:width", value: "", type: "MetaProperty" },
-  { name: "og:image:height", value: "", type: "MetaProperty" },
+  {
+    name: "og:image",
+    value: "https://rom-y.com/romy_logo.png",
+    type: "MetaProperty",
+  },
+  { name: "og:image:width", value: "1200", type: "MetaProperty" },
+  { name: "og:image:height", value: "600", type: "MetaProperty" },
   { name: "og:image:alt", value: "", type: "MetaProperty" },
   { name: "og:locale", value: "", type: "MetaProperty" },
   { name: "twitter:card", value: "", type: "MetaValue" },
   { name: "twitter:description", value: "", type: "MetaValue" },
-  { name: "twitter:image", value: "", type: "MetaValue" },
+  {
+    name: "twitter:image",
+    value: "https://rom-y.com/romy_logo.png",
+    type: "MetaValue",
+  },
 ];
 
 export const data = [

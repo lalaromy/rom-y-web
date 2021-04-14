@@ -25,11 +25,11 @@ export const metaTags = [
   },
   {
     name: "og:image",
-    value: "https://i.ibb.co/PYXYsbx/faktory-37-copy.jpg",
+    value: "https://rom-y.com/romy_logo.png",
     type: "MetaProperty",
   },
-  { name: "og:image:width", value: "200", type: "MetaProperty" },
-  { name: "og:image:height", value: "200", type: "MetaProperty" },
+  { name: "og:image:width", value: "1200", type: "MetaProperty" },
+  { name: "og:image:height", value: "600", type: "MetaProperty" },
   { name: "og:image:alt", value: "Faktory", type: "MetaProperty" },
   { name: "og:locale", value: "en_US", type: "MetaProperty" },
   {
@@ -45,7 +45,7 @@ export const metaTags = [
   },
   {
     name: "twitter:image",
-    value: "https://i.ibb.co/PYXYsbx/faktory-37-copy.jpg",
+    value: "https://rom-y.com/romy_logo.png",
     type: "MetaValue",
   },
 ];
