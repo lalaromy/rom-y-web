@@ -16,11 +16,11 @@ export const metaTags = [
   },
   {
     name: "og:image",
-    value: "https://i.ibb.co/Rjy4YKg/cv-picture-copy.jpg",
+    value: "../../romy_logo.png",
     type: "MetaProperty",
   },
-  { name: "og:image:width", value: "200", type: "MetaProperty" },
-  { name: "og:image:height", value: "200", type: "MetaProperty" },
+  { name: "og:image:width", value: "1200", type: "MetaProperty" },
+  { name: "og:image:height", value: "600", type: "MetaProperty" },
   { name: "og:image:alt", value: "Romy Abbrederis", type: "MetaProperty" },
   { name: "og:locale", value: "en_US", type: "MetaProperty" },
   { name: "twitter:card", value: "Romy Abbrederis", type: "MetaValue" },
@@ -32,7 +32,7 @@ export const metaTags = [
   },
   {
     name: "twitter:image",
-    value: "https://i.ibb.co/Rjy4YKg/cv-picture-copy.jpg",
+    value: "../../romy_logo.png",
     type: "MetaValue",
   },
 ];
