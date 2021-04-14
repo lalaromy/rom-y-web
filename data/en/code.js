@@ -4,10 +4,19 @@ export const metaTags = [
     value: "Coding | Reactjs Nextjs in Paris & Vaduz Liechtenstein",
     type: "MetaValue",
   },
-  { name: "description", value: "", type: "MetaValue" },
-  { name: "og:title", value: "", type: "MetaProperty" },
+  {
+    name: "description",
+    value:
+      "Romy Abbrederis Vaduz Liechtenstein | Web Agency Developer in Vaduz Liechtenstein",
+    type: "MetaValue",
+  },
+  { name: "og:title", value: "Romy Abbrederis | Coding", type: "MetaProperty" },
   { name: "og:url", value: "", type: "MetaProperty" },
-  { name: "og:description", value: "", type: "MetaProperty" },
+  {
+    name: "og:description",
+    value: "Romy Abbrederis | Coding",
+    type: "MetaProperty",
+  },
   { name: "og:image", value: "", type: "MetaProperty" },
   { name: "og:image:width", value: "", type: "MetaProperty" },
   { name: "og:image:height", value: "", type: "MetaProperty" },

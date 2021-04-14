@@ -3,7 +3,7 @@ export const metaTags = [
   {
     name: "description",
     value:
-      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein | Romy Abbrederis Vaduz Paris Liechtenstein",
+      "Romy Abbrederis is a Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein and Paris | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein | Romy Abbrederis Vaduz Paris Liechtenstein",
     type: "MetaValue",
   },
   { name: "og:title", value: "Romy Abbrederis", type: "MetaProperty" },
@@ -16,7 +16,7 @@ export const metaTags = [
   },
   {
     name: "og:image",
-    value: "../../romy_logo.png",
+    value: "https://ibb.co/yd3R3Fp",
     type: "MetaProperty",
   },
   { name: "og:image:width", value: "1200", type: "MetaProperty" },
@@ -32,7 +32,7 @@ export const metaTags = [
   },
   {
     name: "twitter:image",
-    value: "../../romy_logo.png",
+    value: "https://ibb.co/yd3R3Fp",
     type: "MetaValue",
   },
 ];
