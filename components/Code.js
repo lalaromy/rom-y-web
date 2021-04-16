@@ -42,12 +42,10 @@ const Code = ({ projectSelected }) => {
 
   return data ? (
     <div className="code-page-container">
-      <div className="fixed-side">
+      <div className="text-container">
         <Fade bottom duration={1500} delay={1000}>
           <h1>{data.title}</h1>
         </Fade>
-      </div>
-      <div className="text-container">
         {data.paragraphs.map((item) => (
           <p key={item}>{item}</p>
         ))}
