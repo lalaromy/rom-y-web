@@ -17,6 +17,21 @@ export const metaTags = [
     value: "https://rom-y.com/romy_logo.png",
     type: "MetaProperty",
   },
+  {
+    name: "article:author",
+    value: "Romy Abbrederis",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:publisher",
+    value: "http://rom-y.com/",
+    type: "MetaProperty",
+  },
+  {
+    name: "og:site_name",
+    value: "http://rom-y.com/",
+    type: "MetaProperty",
+  },
   { name: "og:image:width", value: "1200", type: "MetaProperty" },
   { name: "og:image:height", value: "600", type: "MetaProperty" },
   { name: "og:image:alt", value: "", type: "MetaProperty" },

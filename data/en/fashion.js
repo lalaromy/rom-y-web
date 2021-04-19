@@ -8,7 +8,7 @@ export const metaTags = [
   {
     name: "description",
     value:
-      "The Faktory offer a low cost and high quality clothing production in Serbia, East Europe. Clothing Production | Garment Production, CMT, FPP, Pattern making, fabric & trim sourcing for luxury and small brands in Europe, Serbia",
+      "Faktory Studios is the one-stop enterprise where one can discover that the production process was never as enjoyable as it is now - the design, sourcing, manufacturing and shipping as four phases we take care of the full process, letting the client focus on other parts of a fashion business. With the lowest minimum quantities, one can find on the market, we offer our clients an ability to react quickly on the market needs or trying new product styles, without risking ending up with too much left-over stock. The Faktory is located in Serbia, which gives the brands the ability to add the Made in Europe Label.",
     type: "MetaValue",
   },
   {
@@ -20,7 +20,22 @@ export const metaTags = [
   {
     name: "og:description",
     value:
-      "The Faktory offers a low cost and high quality clothing production in Serbia, East Europe. Clothing Production",
+      "Faktory Studios is the one-stop enterprise where one can discover that the production process was never as enjoyable as it is now - the design, sourcing, manufacturing and shipping as four phases we take care of the full process, letting the client focus on other parts of a fashion business. With the lowest minimum quantities, one can find on the market, we offer our clients an ability to react quickly on the market needs or trying new product styles, without risking ending up with too much left-over stock. The Faktory is located in Serbia, which gives the brands the ability to add the Made in Europe Label.",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:author",
+    value: "Romy Abbrederis",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:publisher",
+    value: "http://rom-y.com/",
+    type: "MetaProperty",
+  },
+  {
+    name: "og:site_name",
+    value: "http://rom-y.com/",
     type: "MetaProperty",
   },
   {

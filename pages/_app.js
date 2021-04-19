@@ -25,9 +25,9 @@ function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Staatliches&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:image" content="../romy_logo.png">
-        <meta property="og:width" content="1200">
-        <meta property="og:height" content="600">
+        <meta property="og:image" content="../romy_logo.png" />
+        <meta property="og:width" content="1200" />
+        <meta property="og:height" content="600" />
       </Head>
       <Component {...pageProps} />
 

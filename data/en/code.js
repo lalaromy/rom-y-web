@@ -7,14 +7,34 @@ export const metaTags = [
   {
     name: "description",
     value:
-      "Romy Abbrederis Vaduz Liechtenstein | Web Agency Developer in Vaduz Liechtenstein",
+      "Romy Abbrederis Vaduz Liechtenstein | Web Developer and UX Designer in Vaduz Liechtenstein & Paris France working with Next, Gastby, React, React Native and Node",
     type: "MetaValue",
   },
-  { name: "og:title", value: "Romy Abbrederis | Coding", type: "MetaProperty" },
+  {
+    name: "og:title",
+    value: "Romy Abbrederis | Coder wears Prada",
+    type: "MetaProperty",
+  },
   { name: "og:url", value: "", type: "MetaProperty" },
   {
     name: "og:description",
-    value: "Romy Abbrederis | Coding",
+    value:
+      "Romy Abbrederis | Web Developer and UX Designer in Vaduz Liechtenstein & Paris France working with Next, Gastby, React, React Native and Node",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:author",
+    value: "Romy Abbrederis",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:publisher",
+    value: "http://rom-y.com/",
+    type: "MetaProperty",
+  },
+  {
+    name: "og:site_name",
+    value: "http://rom-y.com/",
     type: "MetaProperty",
   },
   {

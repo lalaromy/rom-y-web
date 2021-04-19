@@ -3,7 +3,7 @@ export const metaTags = [
   {
     name: "description",
     value:
-      "Romy Abbrederis is a Frontend Developer, Digital Consultant, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein and Paris | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein | Romy Abbrederis Vaduz Paris Liechtenstein",
+      "Romy Abbrederis is a Web Developer, Digital Consultant, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein and Paris | Reactjs Nextjs Vaduz Liechtenstein | Fashion Apparel Production in Serbia | Fashion Technology Code Paris Vaduz Zürich Liechtenstein | Romy Abbrederis Vaduz Paris Liechtenstein",
     type: "MetaValue",
   },
   { name: "og:title", value: "Romy Abbrederis", type: "MetaProperty" },
@@ -11,7 +11,22 @@ export const metaTags = [
   {
     name: "og:description",
     value:
-      "Frontend Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein ",
+      "Web Developer, Fashion Production Agent and 3D Coding in Vaduz Liechtenstein",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:author",
+    value: "Romy Abbrederis",
+    type: "MetaProperty",
+  },
+  {
+    name: "article:publisher",
+    value: "http://rom-y.com/",
+    type: "MetaProperty",
+  },
+  {
+    name: "og:site_name",
+    value: "http://rom-y.com/",
     type: "MetaProperty",
   },
   {
