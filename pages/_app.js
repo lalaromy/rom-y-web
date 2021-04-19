@@ -20,16 +20,14 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="../romy-white-logo.png" />
+        <link rel="shortcut icon" href="../favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Staatliches&display=swap"
           rel="stylesheet"
         />
-
-        {/* <style>
-          @import
-          url('');
-        </style> */}
+        <meta property="og:image" content="../romy_logo.png">
+        <meta property="og:width" content="1200">
+        <meta property="og:height" content="600">
       </Head>
       <Component {...pageProps} />
 
