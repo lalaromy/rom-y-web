@@ -101,7 +101,7 @@ export const bdst = {
 };
 
 export const faktory = {
-  title: "BDST",
+  title: "Faktory Studios",
   paragraphs: [
     "Faktory Studios Website Launch",
     "Reactjs | Nextjs | Strapi",
