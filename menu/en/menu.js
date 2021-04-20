@@ -18,26 +18,31 @@ export const aboutMenu = [
 export const codeMenu = [
   {
     id: "6",
-    value: "residence",
+    value: "papa",
   },
   {
     id: "7",
+    value: "residence",
+  },
+
+  {
+    id: "8",
     value: "azuvia",
   },
   {
-    id: "8",
+    id: "9",
     value: "bdst",
   },
   {
-    id: "12",
+    id: "10",
     value: "faktory",
   },
   {
-    id: "9",
+    id: "11",
     value: "veert",
   },
   {
-    id: "11",
+    id: "12",
     value: "nomade",
   },
 ];

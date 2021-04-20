@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {
   residence,
+  papa,
   azuvia,
   bdst,
   veert,
@@ -19,6 +20,9 @@ const Code = ({ projectSelected }) => {
 
   const getProjectInfo = () => {
     switch (projectSelected) {
+      case "papa":
+        setData(papa);
+        break;
       case "azuvia":
         setData(azuvia);
         break;

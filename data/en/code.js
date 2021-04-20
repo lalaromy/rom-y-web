@@ -62,6 +62,14 @@ export const data = [
   },
 ];
 
+export const papa = {
+  title: "Pour l'Art Pour l'Afrique",
+  paragraphs: ["Re-making of website", "Reactjs |  Nextjs | Netlify CMS"],
+  image: "../../code/papa.png",
+  linkURL: "https://pourlartpourlafrique.fr/",
+  linkName: "View Website",
+};
+
 export const azuvia = {
   title: "Azuvia",
   paragraphs: [

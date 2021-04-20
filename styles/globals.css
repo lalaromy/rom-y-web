@@ -10,6 +10,81 @@ body {
   -ms-overflow-style: none;
 }
 
+p::selection {
+  background: red;
+  color: black;
+}
+
+p::-moz-selection {
+  background: red;
+  color: black;
+}
+
+p::selection {
+  background: red;
+  color: black;
+}
+
+h1::selection {
+  background: red;
+  color: black;
+}
+
+h2::selection {
+  background: red;
+  color: black;
+}
+
+h3::selection {
+  background: red;
+  color: black;
+}
+
+h4::selection {
+  background: red;
+  color: black;
+}
+
+h5::selection {
+  background: red;
+  color: black;
+}
+
+h1::selection {
+  background: red;
+  color: black;
+}
+
+h2::selection {
+  background: red;
+  color: black;
+}
+
+h3::selection {
+  background: red;
+  color: black;
+}
+
+h1::-moz-selection {
+  background: red;
+  color: black;
+}
+
+h2::-moz-selection {
+  background: red;
+  color: white;
+}
+
+h3::-moz-selection {
+  background: red;
+  color: white;
+}
+
+p::-moz-selection {
+  background: red;
+  color: white;
+}
+
 a {
   color: #f6ff8f;
 }
@@ -128,7 +203,7 @@ body:-webkit-scrollbar {
   .fixed-side {
     position: absolute;
     left: 15px;
-    top: -2px;
+    top: -10px;
     transform: rotate(90deg);
     width: 5vh;
     font-size: 22px;
@@ -145,12 +220,11 @@ body:-webkit-scrollbar {
   .code-page-container {
     color: white;
     padding: 5px;
-    margin-top: 50px;
     position: relative;
   }
 
   .text-container {
-    padding-left: 50px;
+    padding-left: 5px;
   }
 
   .main-container {
