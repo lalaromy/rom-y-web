@@ -2,7 +2,7 @@ export const metaTags = [
   {
     name: "title",
     value:
-      "Fashion Apparel Production in Serbia Europe | Romy Abbrederis | Faktory Studios",
+      "Faktory Studios Apparel Production in Serbia Europe | Design, Sourcing, Manufacturing and Shipping Fashion Clotheså",
     type: "MetaValue",
   },
   {
